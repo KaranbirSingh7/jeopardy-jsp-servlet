@@ -1,0 +1,30 @@
+
+.align-center {
+    text-align: center;
+    height: 500px;
+}
+.vertical{
+    position: relative;
+    top:50%;
+}
+.input-button{
+    width:300px;
+    border-radius: 20px;
+}
+.input-text{
+    text-align: center;
+    font-family: Lucida Handwriting;
+    border: 1px solid white;
+    height:40px;
+    width:300px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0);
+    color:white;
+}
+h1{
+    font-family: Lucida Handwriting;
+    padding: 20px;
+    color:white;
+    font-size: 42px;
+}
+

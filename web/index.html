@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/home.css">
+        <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/pushy-buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/ripple-effect.css"/>
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/bootstrap/css/bootstrap-reboot.css">
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/bootstrap/css/bootstrap.css">
+    </head>
+
+    <body style="background-image: url(/Jeopardy/style/homeBg.jpg);background-repeat: no-repeat;background-size: cover">
+        <div class="container">
+            <div class="align-center">
+                <div class="form-group">
+                    <form method="POST" action="FirstServlet">
+                        <div class="m-3 p-3"></div>
+                        <h1 class="display-1 text-white"
+                            style="font-family: 'Sedgwick Ave Display', cursive;">
+                            Jeopardy
+                        </h1>
+
+                        <div style="margin-left: 17.5em;">
+                            <div class="form-group col-6">
+                                <p class="text-white float-left">Name</p>
+                                <input type="text" class="form-control" name="username" autocomplete="off" >
+                            </div>
+
+                            <div class="form-group col-6">
+                                <p class="text-white float-left">Password</p>
+                                <input type="password" class="form-control" name="password" autocomplete="off" >
+                            </div>
+                        </div>
+
+                        <input name="play"
+                               value="Login"
+                               type="submit"
+                               class="btn btn-lg btn-success col-2">
+                    </form>
+                    <a href="register.html" class="btn btn-md btn-primary col-2 m-3">REGISTER HERE</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

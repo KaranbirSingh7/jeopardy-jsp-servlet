@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/pushy-buttons.css"/>
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/ripple-effect.css"/>
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/bootstrap/css/bootstrap-reboot.css">
+        <link rel="stylesheet" type="text/css" href="/Jeopardy/style/bootstrap/css/bootstrap.css">
+        <title>Welcome</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="m-4 p-4"></div>
+            <div class="ml-5 pl-5 d-inline-block"></div>
+            <form method="POST" action="/Jeopardy/FirstServlet">
+                <p>Enter your name here</p>
+                <div class="form-group col-4">
+                    <input type="text" class="form-control" name="username" autocomplete="off">
+                </div>
+                <div class="form-group col-4">
+                    <input type="password" class="form-control" name="password" >
+                </div>
+                <input type="submit"  name="play" value="Login" class="btn btn-md btn-success col-3 m-3" >
+            </form>
+            <a href="register.html" class="btn btn-md btn-primary col-3 m-3">REGISTER HERE</a>
+        </div>
+    </body>
+</html>

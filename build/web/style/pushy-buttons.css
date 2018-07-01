@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900");
+
+.button {
+    display: inline-block;
+    border: none;
+    border-radius: .3em;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: .5em 1.5em .75em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button:active {
+    -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+    margin-top: .25em;
+    padding-bottom: .5em;
+}
+
+.button:active, .btn:focus {
+    outline: none;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    color: gray;
+}
+
+.button--blue {
+    background-color: #3498db;
+}
+
+.button--green {
+    background-color: #1abc9c;
+}
+
+.button--red {
+    background-color: #e65d4f;
+}
+
+.button--lg {
+    font-size: 1.5em;
+}
+
+.button--df {
+    font-size: 1.25em;
+}
+
+.button--md {
+    font-size: 1em;
+}
+
+.button--sm {
+    font-size: 0.75em;
+}
+
+.button--main {
+    background-color: #e88c30;
+}
+
+.button--skip{
+    background-color: #F5FF02;
+    color: black;
+    font-size: 1em;
+}
